@@ -34,7 +34,9 @@ namespace Metotlar
             sepetManager.Ekle(urun1);
             sepetManager.Ekle(urun2);
 
-            // yanlış yol ekle 2 sadece test amaçlıdır
+
+
+            // yanlış yol ekle 2 sadece test amaçlıdır.
             sepetManager.Ekle2("armut", "yeşil", 13,1);
             sepetManager.Ekle2("karpuz", "kıp kırmızı", 13, 32);
             sepetManager.Ekle2("kavun", "sap sarı", 13, 23);
@@ -44,4 +46,4 @@ namespace Metotlar
 }
 
 
-//don't repeat yourSelf (DRY)
+//don't repeat yourSelf. (DRY)
